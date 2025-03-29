@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Zoonation",
     description: "Aplicativo para adoção de animais em situção de rua. (Projeto ainda em desenvolvimento, backend feito em Python e frontend em ReactJs)",
-    link: "https://github.com/rainasouza/zoonation_frontendt",
+    link: "https://github.com/rainasouza/zoonation_frontend",
     image: zoo,
   },
   {
