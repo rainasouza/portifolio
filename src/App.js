@@ -7,8 +7,15 @@ import napod from './imgs/napod.png';
 import godot from './imgs/godot.png';
 import f1 from './imgs/f1.png';
 import dmf from './imgs/dmf.png';
+import zoo from './imgs/zoo.png'
 
 const projects = [
+  {
+    title: "Zoonation",
+    description: "Aplicativo para adoção de animais em situção de rua. (Projeto ainda em desenvolvimento, backend feito em Python e frontend em ReactJs)",
+    link: "https://github.com/rainasouza/zoonation_frontendt",
+    image: zoo,
+  },
   {
     title: "NAPOD",
     description: "Aplicação que consome a API de Astronomia da NASA.",
@@ -40,7 +47,7 @@ const Portfolio = () => {
     <>
       <Navbar expand="lg" className="custom-navbar">
         <Container>
-          <Navbar.Brand href="#home">Raina Souza</Navbar.Brand>
+          <Navbar.Brand >Raína Souza</Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="https://github.com/rainasouza">GitHub</Nav.Link>
           </Nav>
